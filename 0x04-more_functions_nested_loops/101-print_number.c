@@ -3,7 +3,9 @@
 /**
  * print_numbers - prints an integer
  * @n: integer to be printed
- * Return: Always 0.
+ *
+ * Description: This function prints an integer to the standard output.
+ * If the integer is negative, it prints a minus sign before the number.
  */
 
 void print_number(int n)
