@@ -1,12 +1,15 @@
 #include <stdio.h>
 
-/** main - prints all possible combinations of two two-digit numbers
- *
- * Return: Always 0 (Success)
+/* main - prints all possible combinations of two two-digit numbers.
+ * Return: Always 0 (Success).
  */
 
 int main(void)
 {
+/* program prints all possible combinations of two two-digit numbers.
+ * The numbers in the range from 0 to 99.
+ */
+
 	int i, j;
 
 	for (i = 0; i < 100; i++)
