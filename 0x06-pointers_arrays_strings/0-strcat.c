@@ -5,8 +5,7 @@
  * an input number of bytes from src
  * @dest: the string to be uppon
  * @src: the string to be dest
- * @n: number of bytes from src to be appende to dest
- * Return: a pointer to the result of the dest.
+ * Return: void.
  */
 char *_strcat(char *dest, char *src)
 {
@@ -18,6 +17,7 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
+
 	j = 0;
 	while (src[j] != '\0')
 	{
